@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Mountain Flavors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="navbar-logo">
+                <img src="Untitled design.gif" alt="Mountain Flavors" style="width: 100px; height: 100px; border-radius: 50%; margin: auto;">
+                <h2 class="restaurant-name">Mountain Flavors</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="gallery-section">
+        <h2>Gallery</h2>
+        <!-- Bootstrap Carousel for Gallery -->
+        <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Restaurant Interior.jpeg" class="d-block w-100" alt="Restaurant Interior">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/kabab.jpg" class="d-block w-100" alt="Kabab">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Kabuli-palaw.jpg" class="d-block w-100" alt="Kabuli-palaw">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/beans.jpg" class="d-block w-100" alt="Beans">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/burger.jpeg" class="d-block w-100" alt="Burger">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Plater.jpeg" class="d-block w-100" alt="Hazaragi Food Platter">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/bolani.jpg" class="d-block w-100" alt="Bolani">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Mountain Flavors | Contact us: info@mountainflavors.com</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
